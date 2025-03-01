@@ -104,7 +104,7 @@
             buttonPair.style.borderColor = getRandomColor(); // ランダムな原色
 
             const likeButton = document.createElement('button');
-            likeButton.innerText = '良いね！';
+            likeButton.innerText = '👍';
             likeButton.className = 'like-button'; // 薄い赤色
             const currentIndex = buttonCount - 1;
 
@@ -115,7 +115,7 @@
             });
 
             const dislikeButton = document.createElement('button');
-            dislikeButton.innerText = '悪いね！';
+            dislikeButton.innerText = '👎';
             dislikeButton.className = 'dislike-button'; // 薄い青色
 
             dislikeButton.addEventListener('click', () => {
